@@ -91,6 +91,9 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias gohome="cd /mnt/c/Users/A01705021"
+alias mountl="sudo mkdir /mnt/l && sudo mount -t drvfs L: /mnt/l"
+alias gol="cd /mnt/l"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
